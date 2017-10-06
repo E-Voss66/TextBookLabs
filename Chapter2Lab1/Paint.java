@@ -24,10 +24,14 @@ public class Paint
             totalSqFt= calculateSqFt(length, width, height);
  
             //Compute the amount of paint needed
-            paintNeeded = totalSqFt/COVERAGE;
+            paintNeeded = (totalSqFt/COVERAGE);
+            paintNeeded = Math.round(paintNeeded);
+            
  
             //Print the length, width, and height of the room and the
             //number of gallons of paint needed.
+            System.out.println("The demensions are " + length + " by " + width + " by " + height);
+            System.out.println("You need " + paintNeeded + " gallons of paint");
             
         }
         
