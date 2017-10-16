@@ -39,7 +39,7 @@ public class chargeAccount
     }
     
     public static double calculateNewBalance(double previousBalance, double interest, double additionalCharges){
-        return previousBalance + additionalCharges + (previousBalance * interest);
+        return previousBalance + additionalCharges + ((previousBalance + additionalCharges) * interest);
     }
     
     public static double calculateMinimumPayment(double newBalance){
