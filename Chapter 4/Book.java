@@ -1,17 +1,20 @@
 
 public class Book
 {
-    private Author author;
+    private Author bookAuthor;
     private String title;
-    private int pages;
 
-    public Book(Author athr, String ttl, int pgs)
+    public Book(Author athr, String ttl)
     {
-        this.author = athr;
+        this.bookAuthor = athr;
         this.title = ttl;
-        this.pages = pgs;
     }
-
+    public String toString(){
+        return "This book's title is " + this.title + " and it is written by " + this.bookAuthor;
+    }
+    
+    
+    
     
     
 }
