@@ -11,4 +11,6 @@ comment4.params=p2
 comment4.target=double\ probabilityAND(Probability)
 comment5.params=
 comment5.target=java.lang.String\ toString()
-numComments=6
+comment6.params=other
+comment6.target=int\ compareTo(Probability)
+numComments=7

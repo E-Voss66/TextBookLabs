@@ -7,7 +7,7 @@ package Lab2Problem1;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Probability implements ProbabilityCalc
+public class Probability implements ProbabilityCalc, Comparable<Probability>
 {
     private double favorable;
     private double sampleSpace;
@@ -34,6 +34,18 @@ public class Probability implements ProbabilityCalc
     
     public String toString(){
         return "The probability is " + calculateProbability();
+    }
+    
+    public int compareTo(Probability other){
+        if(this.prob > other.prob){
+            return 1;
+        }
+        else if(this.prob < other.prob){
+            return -1;
+        }
+        else {
+            return 0;
+        }
     }
 
 }
