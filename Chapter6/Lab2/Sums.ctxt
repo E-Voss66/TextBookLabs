@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Sums
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=array
+comment2.target=int[][]\ populateArray(int[][])
+comment3.params=nums
+comment3.target=int[]\ sumColumns(int[][])
+numComments=4
