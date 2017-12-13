@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PowerOfTwo
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=array
+comment2.target=int[][]\ populateArray(int[][])
+comment3.params=origArray\ finalArray
+comment3.target=int[][]\ squareArray(int[][],\ int[][])
+numComments=4
